@@ -1,0 +1,275 @@
+*
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0%;
+    margin: 0;
+}
+body
+{
+    background-color: #010103;
+}
+header
+{
+    
+    background-color: rgb(14, 81, 81);
+}
+header nav 
+{   background-color: rgb(11, 11, 11);
+    position: sticky;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+header nav:hover 
+{   background-color: rgb(45, 43, 43);
+    position: sticky;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    cursor: pointer;
+}
+
+header nav ul
+{
+    display: flex;
+    
+}
+
+header nav ul li{
+    color: white;
+    display: flex;
+    padding: 2px 5px;
+    gap: 20px;
+    position: relative;
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav ul li:hover{
+    color: #DBBB82;
+    display: flex;
+    padding: 2px 5px;
+    gap: 20px;
+    position: relative;
+    font-size: 4vw;
+    border-bottom: #4d3b32;
+    /* border: 2px solid rgb(202, 114, 27); */
+    border-radius: 2px;
+}
+
+
+.main
+
+    
+{
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 50%;
+    background-color: rgb(255, 13, 0);
+}
+.hero
+{
+   /* height: 50vh; */
+   height: 50%;
+    background-color: rgb(87, 40, 40);
+}
+.main .hero img{
+    max-width: 100%;
+    
+
+}
+.main .hero span
+{
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   /* z-index: 10; */
+   top: 23px;
+   color: rgb(237, 240, 237);
+   padding: 20px 5px;
+   flex-wrap: wrap;
+   font-size: 8px; */
+} 
+.main .hero span:hover
+{
+    color: #DBBB82;
+    font-family: cursive;
+    
+    
+    
+}
+.main .hero button
+{   
+    background-color: #D3AD7F;
+    color: white;
+     padding: 2px  23px;  
+    
+     max-width: 100%;
+     top: 100px;
+    position: absolute;
+}
+@media screen and (max-width:600px) {
+    
+    .main .hero button
+{   
+    background-color: #d3ad7f;
+    color: white;
+     padding: 2px  2px;  
+     font-size: 10px;
+     max-width: 100%;
+     border-radius: 0.8;
+     border: #D3AD7F;
+     
+     top: 100px;
+    position: absolute;
+}
+    
+}
+
+.main .hero button:hover{
+    background-color: #965e1a;
+    /* animation: harry; */
+    
+    
+    border-radius: 20px;
+    
+}
+section 
+{
+    
+    background-color: rgb(17, 13, 13);
+}
+section div
+{
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+section div :first-child:hover
+{
+   font-family: cursive;
+    background-color: #000000;
+}
+section div :first-child
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#D3AD7F;
+    
+}
+
+section div :nth-child(2)
+{   padding-left: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#fcfbfa;
+    
+}
+section img 
+{   padding: auto 20px;
+    max-width: 100%;
+    
+}
+.menu
+{
+    height: 100%;
+    background-color: rgb(69, 58, 58);
+}
+.menu div 
+
+{    background-color: rgb(5, 6, 6);
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu div :first-child
+{
+    padding-left: 5px;
+    padding-right: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#fcfbfa;
+}
+.menu div :nth-child(2)
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#D3AD7F;
+}
+.menu div :first-child:hover
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#D3AD7F;
+}
+.menu div :nth-child(2):hover
+{
+    padding-left: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#fcfbfa;
+}
+.menu .cart
+{
+    display: flex;
+    border: 2px solid rgb(49, 52, 49);
+    border-radius: 20px;
+    max-width: 100%;
+}
+.menu .cart img:hover
+{
+    background-color: rgb(76, 75, 75);
+}
+footer 
+{
+    height: 40vh;
+    background-color: green;
+}
+footer div 
+{   background-color: rgb(30, 18, 18);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#D3AD7F;
+
+    
+}
+footer div :first-child:hover
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#D3AD7F;
+}
+footer div :nth-child(2):hover
+{
+    padding-left: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#fcfbfa;
+}
+footer div :first-child:hover
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:#D3AD7F;
+}
+footer div:hover
+{
+    
+    background-color: #4d3b32;
+}
